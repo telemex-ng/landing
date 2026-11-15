@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://telemex.health/sitemap.xml
+Sitemap: https://telemex.com.ng/sitemap.xml

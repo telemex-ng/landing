@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://telemex.health/</loc>
+    <loc>https://telemex.com.ng/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://telemex.health/platform.html</loc>
+    <loc>https://telemex.com.ng/platform</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://telemex.health/packages.html</loc>
+    <loc>https://telemex.com.ng/packages</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://telemex.health/solutions.html</loc>
+    <loc>https://telemex.com.ng/solutions</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://telemex.health/governance.html</loc>
+    <loc>https://telemex.com.ng/governance</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://telemex.health/about.html</loc>
+    <loc>https://telemex.com.ng/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://telemex.health/contact.html</loc>
+    <loc>https://telemex.com.ng/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://telemex.health/terms.html</loc>
+    <loc>https://telemex.com.ng/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://telemex.health/privacy.html</loc>
+    <loc>https://telemex.com.ng/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
