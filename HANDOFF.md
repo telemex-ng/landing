@@ -1497,3 +1497,38 @@ Premium is not more gradients, more cards or more animation. It is:
 - a page that feels calm on a phone.
 
 The site should feel like a product a hospital can trust, not a launch-day landing page trying too hard.
+
+---
+
+## 17. Shipped state — 14 November 2026
+
+**Shipped (minimum slice + most of the polish slice):**
+
+- Metadata, OG/Twitter and JSON-LD rewritten around HMIS; FAQ JSON-LD matches the
+  visible FAQ (first four questions).
+- Hero: HMIS eyebrow, H1, lede, package proof chips, four-department product mock.
+- From EMR to HMIS transition band with the three-step visual.
+- Packages section: Hospital and Laboratory `Available now`, Hospital Pharmacy
+  `Coming soon`, with a full module matrix and visible status legend.
+- Platform map: Hospital / Laboratory / Hospital Pharmacy tabs with an animated
+  flow dot that pauses off-screen, on hover/focus, and under reduced motion.
+- “What is live today” grid: six available cards, five coming-soon cards, and the
+  reporting `In configuration` note.
+- Solutions, white-label brand studio, journey, governance, demo and footer copy
+  updated to the launch matrix.
+- Demo form keeps every HubSpot field name; package interest is UI-only and is
+  prefixed into the existing free-text field on submit.
+- `privacy.html` and `terms.html` updated to HMIS terminology with no new claims.
+
+**Visual reference:** Luma Health was inspected for rhythm and craft only — sticky
+floating header, one idea per section, oversized editorial statements, a quiet
+numbers band, restrained infographics and honest status labels. No Luma copy,
+colours, typefaces, assets or logos were used; Telemex keeps cream/green/mint,
+Manrope + DM Sans and sharp corners.
+
+**Deferred:**
+
+- `og.png` still carries the EMR-era artwork and needs a 1200×630 HMIS redraw.
+- No Lighthouse run, no multi-viewport QA sweep beyond the responsive rules, and
+  no live form submission test (needs a real inbox and HubSpot portal access).
+- Deployment and smoke test on the production host are not done.

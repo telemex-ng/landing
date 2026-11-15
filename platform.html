@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Platform | Telemex</title>
+    <meta name="description" content="The Telemex platform connects outpatient care, laboratory, finance and reporting on one patient record, with role-based access and append-only audit." />
+    <meta name="theme-color" content="#0c2a25" />
+    <link rel="canonical" href="https://telemex.health/platform.html" />
+    <meta property="og:title" content="Telemex Platform: the operating layer of the hospital" />
+    <meta property="og:description" content="One patient record. Every department. See how Telemex connects care, laboratory and finance." />
+    <meta property="og:image" content="https://telemex.health/og.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-head">
+      <div class="head-in">
+        <a class="brand" href="index.html" aria-label="Telemex home">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>Telemex</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="platform.html" aria-current="page">Platform</a>
+          <a href="packages.html">Packages</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="governance.html">Governance</a>
+          <a href="about.html">Company</a>
+        </nav>
+        <div class="head-actions">
+          <a class="head-login" href="contact.html">Contact</a>
+          <a class="btn btn--sm" href="contact.html">Book a demo <span class="arw" aria-hidden="true">↗</span></a>
+          <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-overlay" aria-label="Open menu"><span></span><span></span></button>
+        </div>
+      </div>
+      <div class="nav-overlay" id="nav-overlay">
+        <a href="platform.html">Platform</a>
+        <a href="packages.html">Packages</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="governance.html">Governance</a>
+        <a href="about.html">Company</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn--lime" href="contact.html">Book a demo <span class="arw" aria-hidden="true">↗</span></a>
+        <small>telemex.health</small>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="phero">
+        <div class="shell phero-grid">
+          <div>
+            <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Platform</span></div>
+            <p class="kicker">Platform</p>
+            <h1 data-split>The operating layer<br />of the <em class="em-i">hospital.</em></h1>
+            <p class="lede">Telemex holds the clinical record, the department work, and the financial trail in one system, so a laboratory result, a prescription and an invoice all point at the same patient.</p>
+            <div class="phero-actions">
+              <a class="btn btn--lime" href="contact.html">Book a demo <span class="arw" aria-hidden="true">↗</span></a>
+              <a class="btn btn--ghost" href="packages.html">See the packages</a>
+            </div>
+            <ul class="phero-meta">
+              <li>Hospital available now</li>
+              <li>Laboratory available now</li>
+              <li>White-label deployment</li>
+            </ul>
+          </div>
+          <div class="hero-visual">
+            <span class="glow" aria-hidden="true"></span>
+            <div class="shot shot--img" data-parallax="0.04">
+              <img class="shot__img" src="assets/screens/lab-dashboard-reception.webp" width="1512" height="945" alt="Laboratory request screen in Telemex with patient lookup, department, tests and panels, and catalogue pricing" decoding="async" />
+            </div>
+            <div class="shot-float" data-parallax="-0.03">
+              <small>Same patient</small>
+              <strong>Order to result, in one record.</strong>
+              <p>The clinic orders it, the bench works it, the chart receives it.</p>
+              <div class="bar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec--paper">
+        <div class="shell">
+          <div class="sec-head">
+            <div>
+              <p class="kicker">Department flow</p>
+              <h2 data-split>Follow the record,<br />not the <em class="em-i">paperwork.</em></h2>
+            </div>
+            <p class="lede" data-reveal>Each package runs a different path through the same patient record. Switch the package to see where the work moves.</p>
+          </div>
+
+          <div class="flow-panel" data-reveal>
+            <div class="flow-tabs" role="tablist" aria-label="Package flows">
+              <button class="flow-tab" type="button" role="tab" id="ftab-hospital" aria-selected="true" aria-controls="fpanel-hospital" data-flow-tab="hospital">Hospital</button>
+              <button class="flow-tab" type="button" role="tab" id="ftab-laboratory" aria-selected="false" aria-controls="fpanel-laboratory" data-flow-tab="laboratory" tabindex="-1">Laboratory</button>
+              <button class="flow-tab" type="button" role="tab" id="ftab-pharmacy" aria-selected="false" aria-controls="fpanel-pharmacy" data-flow-tab="pharmacy" tabindex="-1">Hospital Pharmacy · coming soon</button>
+            </div>
+
+            <div id="fpanel-hospital" role="tabpanel" aria-labelledby="ftab-hospital" data-flow-panel="hospital">
+              <div class="flow-track">
+                <span class="flow-track__rail" aria-hidden="true"><span class="flow-track__dot"></span></span>
+                <ol class="flow-nodes">
+                  <li><small>01</small><strong>Register</strong><p>Identity matched to one record.</p></li>
+                  <li><small>02</small><strong>Schedule</strong><p>Clinic, queue and appointment.</p></li>
+                  <li><small>03</small><strong>Consult</strong><p>Coded clinical documentation.</p></li>
+                  <li><small>04</small><strong>Order</strong><p>Laboratory and prescriptions.</p></li>
+                  <li><small>05</small><strong>Bill</strong><p>Invoice and reconciliation.</p></li>
+                  <li><small>06</small><strong>Report</strong><p>Result released and delivered.</p></li>
+                </ol>
+              </div>
+              <p class="flow-track__note">One patient record. One audit trail. Every department.</p>
+            </div>
+
+            <div id="fpanel-laboratory" role="tabpanel" aria-labelledby="ftab-laboratory" data-flow-panel="laboratory" hidden>
+              <div class="flow-track">
+                <span class="flow-track__rail" aria-hidden="true"><span class="flow-track__dot"></span></span>
+                <ol class="flow-nodes">
+                  <li><small>01</small><strong>Request</strong><p>Order received with the patient.</p></li>
+                  <li><small>02</small><strong>Collect</strong><p>Specimen and container recorded.</p></li>
+                  <li><small>03</small><strong>Process</strong><p>Worklist and bench tracking.</p></li>
+                  <li><small>04</small><strong>Verify</strong><p>Result checked and signed.</p></li>
+                  <li><small>05</small><strong>Release</strong><p>Report made available.</p></li>
+                  <li><small>06</small><strong>Deliver</strong><p>Patient and clinician access.</p></li>
+                </ol>
+              </div>
+              <p class="flow-track__note">Requests, specimens, verification and delivery on one record.</p>
+            </div>
+
+            <div id="fpanel-pharmacy" role="tabpanel" aria-labelledby="ftab-pharmacy" data-flow-panel="pharmacy" hidden>
+              <div class="flow-track">
+                <span class="flow-track__rail" aria-hidden="true"></span>
+                <ol class="flow-nodes">
+                  <li><small>01</small><strong>Prescribe</strong><p>Order written in the chart.</p></li>
+                  <li><small>02</small><strong>Review</strong><p>Pharmacist review and notes.</p></li>
+                  <li><small>03</small><strong>Dispense</strong><p>Issue recorded against the patient.</p></li>
+                  <li><small>04</small><strong>Stock</strong><p>Inventory movement captured.</p></li>
+                  <li><small>05</small><strong>Reconcile</strong><p>Billing and stock aligned.</p></li>
+                </ol>
+              </div>
+              <p class="flow-track__note">Coming soon: a pharmacy-first package in development.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div class="shell split">
+          <div>
+            <p class="kicker">Clinical core</p>
+            <h2 data-split>The encounter,<br />documented <em class="em-i">once.</em></h2>
+            <p class="lede">History, examination, diagnosis, orders and the plan are written inside the consultation. The chart stays clinical data, not a scanned note.</p>
+            <ul class="feature-list">
+              <li><span>01</span><div><strong>Patient context before the clinician acts</strong><small>Problems, medications, allergies, alerts and recent results on one screen.</small></div></li>
+              <li><span>02</span><div><strong>Coded decisions</strong><small>Diagnosis, medication and investigation choices stored as data rather than prose.</small></div></li>
+              <li><span>03</span><div><strong>A record that continues</strong><small>Timeline, open orders, referrals and visit summaries carried into the next visit.</small></div></li>
+            </ul>
+          </div>
+          <div data-reveal>
+            <div class="panel panel--plain">
+              <div class="ui">
+                <div class="ui-bar"><span class="ui-brand"><b>+</b> Outpatient</span><span class="ui-status">Clinic 2</span></div>
+                <div class="ui-body">
+                  <div class="ui-head"><div><small>Patient chart</small><strong>Jared K. · 34</strong></div><span class="ui-date">10:30</span></div>
+                  <div class="ui-tiles">
+                    <div class="ui-tile"><small>Allergies</small><strong>1</strong><em>Penicillin</em></div>
+                    <div class="ui-tile"><small>Active meds</small><strong>03</strong><em>Review</em></div>
+                    <div class="ui-tile"><small>Open orders</small><strong>02</strong><em>Lab, ECG</em></div>
+                    <div class="ui-tile"><small>Visits</small><strong>07</strong><em>Since 2024</em></div>
+                  </div>
+                  <div class="ui-table">
+                    <div class="ui-row head"><span>Section</span><span>Status</span><span>Owner</span><span></span></div>
+                    <div class="ui-row"><span><b>History</b><small>Exertional chest pain, 2 weeks</small></span><span>Complete</span><span>Clinician</span><span class="ui-tag">Signed</span></div>
+                    <div class="ui-row"><span><b>Examination</b><small>Vitals from nursing pre-consult</small></span><span>Complete</span><span>Nursing</span><span class="ui-tag">Signed</span></div>
+                    <div class="ui-row"><span><b>Assessment</b><small>I20.9 · angina, unspecified</small></span><span>Coded</span><span>Clinician</span><span class="ui-tag">ICD-10</span></div>
+                    <div class="ui-row"><span><b>Plan</b><small>CBC, ECG, aspirin 75mg</small></span><span>2 orders</span><span>Clinician</span><span class="ui-tag warn">Open</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="shot__caption"><span>Illustrative chart</span><span>Clinical data, not paper</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec--mist">
+        <div class="shell split split--flip">
+          <div>
+            <p class="kicker">Laboratory</p>
+            <h2 data-split>Requests in,<br />results <em class="em-i">back out.</em></h2>
+            <p class="lede">Laboratory work is a department workflow, not a mailbox. Requests arrive with the patient attached; specimens, verification and release stay connected to that patient.</p>
+            <ul class="feature-list">
+              <li><span>01</span><div><strong>Request to worklist</strong><small>Accepted orders appear on the bench without a re-typing step.</small></div></li>
+              <li><span>02</span><div><strong>Specimen and container tracking</strong><small>Collection, container and processing state recorded as it happens.</small></div></li>
+              <li><span>03</span><div><strong>Named verification</strong><small>Results are signed before release; amendments keep their own trail.</small></div></li>
+              <li><span>04</span><div><strong>Report delivery</strong><small>The released report lands in the same record the clinic ordered from.</small></div></li>
+            </ul>
+          </div>
+          <div data-reveal>
+            <div class="panel">
+              <div class="ui">
+                <div class="ui-bar"><span class="ui-brand"><b>+</b> Laboratory</span><span class="ui-status">Bench 1</span></div>
+                <div class="ui-body">
+                  <div class="ui-head"><div><small>Worklist</small><strong>16 September</strong></div><span class="ui-date">08 open</span></div>
+                  <div class="ui-table">
+                    <div class="ui-row head"><span>Patient / test</span><span>Specimen</span><span>Stage</span><span></span></div>
+                    <div class="ui-row"><span><b>Olivia N.</b><small>Full blood count</small></span><span>EDTA · 08:14</span><span>Verify</span><span class="ui-tag warn">Priority</span></div>
+                    <div class="ui-row"><span><b>Musa T.</b><small>Malaria parasite</small></span><span>EDTA · 08:22</span><span>Processing</span><span class="ui-tag mute">Bench 2</span></div>
+                    <div class="ui-row"><span><b>Grace O.</b><small>Liver function</small></span><span>Serum · 08:31</span><span>Collected</span><span class="ui-tag mute">Queued</span></div>
+                    <div class="ui-row"><span><b>Peter A.</b><small>Urinalysis</small></span><span>Urine · 08:40</span><span>Released</span><span class="ui-tag">Reported</span></div>
+                    <div class="ui-row"><span><b>Hauwa I.</b><small>Electrolytes</small></span><span>Serum · 08:44</span><span>Collected</span><span class="ui-tag mute">Queued</span></div>
+                  </div>
+                  <div class="ui-foot"><span>Amendments keep their own audit line</span><span>One-way draft</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div class="shell split">
+          <div>
+            <p class="kicker">Finance</p>
+            <h2 data-split>Invoices that start<br />in the <em class="em-i">consultation.</em></h2>
+            <p class="lede">A service catalogue priced once. Invoice lines generated from encounters and orders. Receipts, refunds and reconciliation attributable to a person.</p>
+            <ul class="feature-list">
+              <li><span>01</span><div><strong>Service catalogue</strong><small>Prices and services maintained in one place, used everywhere.</small></div></li>
+              <li><span>02</span><div><strong>Invoices and receipts</strong><small>Issued against real clinical work rather than a separate ledger.</small></div></li>
+              <li><span>03</span><div><strong>Reconciliation</strong><small>Adjustments and refunds leave a trail that can be reviewed.</small></div></li>
+            </ul>
+          </div>
+          <div data-reveal>
+            <div class="panel panel--sand">
+              <div class="ui">
+                <div class="ui-bar"><span class="ui-brand"><b>+</b> Finance</span><span class="ui-status">Day close</span></div>
+                <div class="ui-body">
+                  <div class="ui-head"><div><small>Reconciliation</small><strong>16 September</strong></div><span class="ui-date">Open</span></div>
+                  <div class="ui-tiles">
+                    <div class="ui-tile"><small>Invoiced</small><strong>₦412k</strong><em>today</em></div>
+                    <div class="ui-tile"><small>Collected</small><strong>₦361k</strong><em>88%</em></div>
+                    <div class="ui-tile"><small>Refunds</small><strong>₦4.2k</strong><em>2 lines</em></div>
+                    <div class="ui-tile hot"><small>Open</small><strong>07</strong><em>to review</em></div>
+                  </div>
+                  <div class="ui-table">
+                    <div class="ui-row head"><span>Invoice</span><span>Source</span><span>Status</span><span></span></div>
+                    <div class="ui-row"><span><b>INV-2288</b><small>Jared K. · consultation</small></span><span>Outpatient</span><span>Paid</span><span class="ui-tag">Receipt</span></div>
+                    <div class="ui-row"><span><b>INV-2291</b><small>Olivia N. · full blood count</small></span><span>Laboratory</span><span>Open</span><span class="ui-tag warn">Review</span></div>
+                    <div class="ui-row"><span><b>INV-2294</b><small>Samuel A. · dispensing</small></span><span>Pharmacy</span><span>Part paid</span><span class="ui-tag mute">Balance</span></div>
+                  </div>
+                  <div class="ui-foot"><span>Lines generated from encounters</span><span>Closed 18:02</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec--dark">
+        <div class="shell">
+          <div class="sec-head">
+            <div>
+              <p class="kicker kicker--light">Capabilities</p>
+              <h2 data-split>Six things the platform<br />does <em class="em-i">today.</em></h2>
+            </div>
+            <p class="lede" data-reveal>Everything listed here is live in the Hospital and Laboratory packages. Anything on the roadmap is labelled as coming soon elsewhere on this site.</p>
+          </div>
+          <div class="pillars">
+            <article class="pillar" style="background: var(--forest); border-color: var(--line-light)"><span class="pillar__num" style="color: rgba(255,255,255,.45)">01</span><span class="pillar__icon" aria-hidden="true">◫</span><h3 style="color: #fff">Shared patient record</h3><p style="color: rgba(255,255,255,.6)">One identity, one history and one audit trail across departments.</p></article>
+            <article class="pillar" style="background: var(--forest); border-color: var(--line-light)"><span class="pillar__num" style="color: rgba(255,255,255,.45)">02</span><span class="pillar__icon" aria-hidden="true">⌁</span><h3 style="color: #fff">Outpatient care</h3><p style="color: rgba(255,255,255,.6)">Scheduling, queues, nursing pre-consult, consultation, orders and referrals.</p></article>
+            <article class="pillar" style="background: var(--forest); border-color: var(--line-light)"><span class="pillar__num" style="color: rgba(255,255,255,.45)">03</span><span class="pillar__icon" aria-hidden="true">◈</span><h3 style="color: #fff">Laboratory</h3><p style="color: rgba(255,255,255,.6)">Requests, specimen and container tracking, verification, release and report delivery.</p></article>
+            <article class="pillar" style="background: var(--forest); border-color: var(--line-light)"><span class="pillar__num" style="color: rgba(255,255,255,.45)">04</span><span class="pillar__icon" aria-hidden="true">▤</span><h3 style="color: #fff">Finance and billing</h3><p style="color: rgba(255,255,255,.6)">Service catalogue, invoices, receipts, refunds and reconciliation.</p></article>
+            <article class="pillar" style="background: var(--forest); border-color: var(--line-light)"><span class="pillar__num" style="color: rgba(255,255,255,.45)">05</span><span class="pillar__icon" aria-hidden="true">⌾</span><h3 style="color: #fff">Governance</h3><p style="color: rgba(255,255,255,.6)">Role-based access, append-only audit, consent-gated export and offline-safe charting.</p></article>
+            <article class="pillar" style="background: var(--forest); border-color: var(--line-light)"><span class="pillar__num" style="color: rgba(255,255,255,.45)">06</span><span class="pillar__icon" aria-hidden="true">◇</span><h3 style="color: #fff">White-label deployment</h3><p style="color: rgba(255,255,255,.6)">Your brand, domain, roles, modules and isolated environment.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="shell cta-grid">
+          <div><h2 data-split>Walk through your<br /><em>own workflow.</em></h2></div>
+          <div>
+            <p>Bring the way your departments actually work. We’ll show the package that fits and what is live today.</p>
+            <div class="cta-actions">
+              <a class="btn btn--lime" href="contact.html">Book a demo <span class="arw" aria-hidden="true">↗</span></a>
+              <a class="btn" href="governance.html" style="background: transparent; border-color: rgba(255,255,255,.34); color: #fff">Governance</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="shell">
+        <div class="foot-top">
+          <div>
+            <a class="brand foot-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Telemex</span></a>
+            <p>The modular HMIS for hospitals and laboratories. One patient record, one financial history, every care team connected.</p>
+            <a class="foot-mail" href="mailto:telemex.health@gmail.com">telemex.health@gmail.com ↗</a>
+          </div>
+          <div class="foot-cols">
+            <div><strong>Platform</strong><a href="platform.html">Overview</a><a href="solutions.html">Solutions</a><a href="governance.html">Governance</a><a href="about.html">Company</a></div>
+            <div><strong>Packages</strong><a href="packages.html">Hospital</a><a href="packages.html">Laboratory</a><a href="packages.html">Hospital Pharmacy</a></div>
+            <div><strong>Contact</strong><a href="contact.html">Book a demo</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+          </div>
+        </div>
+        <p class="foot-word" aria-hidden="true">Telemex</p>
+        <div class="foot-bottom"><span>© <span id="current-year">2026</span> Telemex. All rights reserved.</span><span>Hospital and Laboratory available now.</span><a href="#top">Back to top ↑</a></div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Governance | Telemex</title>
+    <meta name="description" content="Role-based access, append-only audit, consent-gated export and offline-safe charting, and how Telemex keeps a hospital record accountable." />
+    <meta name="theme-color" content="#0c2a25" />
+    <link rel="canonical" href="https://telemex.health/governance.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-head">
+      <div class="head-in">
+        <a class="brand" href="index.html" aria-label="Telemex home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Telemex</span></a>
+        <nav class="nav" aria-label="Primary">
+          <a href="platform.html">Platform</a>
+          <a href="packages.html">Packages</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="governance.html" aria-current="page">Governance</a>
+          <a href="about.html">Company</a>
+        </nav>
+        <div class="head-actions">
+          <a class="head-login" href="contact.html">Contact</a>
+          <a class="btn btn--sm" href="contact.html">Book a demo <span class="arw" aria-hidden="true">↗</span></a>
+          <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-overlay" aria-label="Open menu"><span></span><span></span></button>
+        </div>
+      </div>
+      <div class="nav-overlay" id="nav-overlay">
+        <a href="platform.html">Platform</a><a href="packages.html">Packages</a><a href="solutions.html">Solutions</a><a href="governance.html">Governance</a><a href="about.html">Company</a><a href="contact.html">Contact</a>
+        <a class="btn btn--lime" href="contact.html">Book a demo <span class="arw" aria-hidden="true">↗</span></a>
+        <small>telemex.health</small>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="phero">
+        <div class="shell phero-grid">
+          <div>
+            <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Governance</span></div>
+            <p class="kicker">Governance</p>
+            <h1 data-split>A record your hospital<br />can <em class="em-i">account for.</em></h1>
+            <p class="lede">Every chart action, order, result, dispense, payment and export is designed to leave a clear operational trail, attributable to a person, a section and a moment.</p>
+            <div class="phero-actions">
+              <a class="btn btn--lime" href="contact.html">Discuss your model <span class="arw" aria-hidden="true">↗</span></a>
+              <a class="btn btn--ghost" href="platform.html">Platform overview</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <span class="glow" aria-hidden="true"></span>
+            <div class="shot shot--img" data-parallax="0.04">
+              <img class="shot__img" src="assets/screens/admin-dashboard-finance.webp" width="1512" height="945" alt="Finance settings in Telemex showing payment policy, refund bands and cash collection rules under audit" decoding="async" />
+            </div>
+            <div class="shot-float" data-parallax="-0.03">
+              <small>Accountability</small>
+              <strong>Who, what, when.</strong>
+              <p>Access history is a record of care, not a compliance afterthought.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec--dark">
+        <div class="shell">
+          <div class="sec-head">
+            <div>
+              <p class="kicker kicker--light">The four controls</p>
+              <h2 data-split>Governed by design,<br />not by <em class="em-i">policy alone.</em></h2>
+            </div>
+            <p class="lede" data-reveal>Access, audit, consent and offline work are platform behaviours. They are enforced by the system, then described in the contract.</p>
+          </div>
+          <div class="gov-grid">
+            <div class="gov-cell"><span>01</span><h3>Role and ownership controls</h3><p>Admin, clinical, laboratory, pharmacy and patient access enforced by role, assignment and feature policy.</p></div>
+            <div class="gov-cell"><span>02</span><h3>Append-only audit</h3><p>Views, creates, updates, deletes and exports attributable to an actor, section, device time and sync time.</p></div>
+            <div class="gov-cell"><span>03</span><h3>Consent-gated portability</h3><p>Patient data-sharing consent governs exports, with revocation and expiring access to shared summaries.</p></div>
+            <div class="gov-cell"><span>04</span><h3>Safe offline charting</h3><p>Selected clinical modules continue offline with idempotent writes, explicit conflict handling and server re-validation.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div class="shell split">
+          <div>
+            <p class="kicker">Audit</p>
+            <h2 data-split>Every action<br />leaves a <em class="em-i">line.</em></h2>
+            <p class="lede">The audit record is append-only. Entries are attributed to a person, a section and a time, and exports are recorded as events in their own right.</p>
+            <ul class="feature-list">
+              <li><span>01</span><div><strong>Access is visible</strong><small>Who opened which chart, in which department, and when.</small></div></li>
+              <li><span>02</span><div><strong>Changes are attributable</strong><small>Clinical edits, overrides and amendments carry an actor and a reason where required.</small></div></li>
+              <li><span>03</span><div><strong>Exports are events</strong><small>A shared summary appears in the history like any other action.</small></div></li>
+            </ul>
+          </div>
+          <div data-reveal>
+            <div class="audit">
+              <div class="audit__head"><span>Access history</span><span>Append-only</span></div>
+              <ul>
+                <li><b>Dr. Amina</b><span>Viewed chart · consultation</span><time>09:41</time></li>
+                <li><b>Nursing</b><span>Recorded observations</span><time>09:44</time></li>
+                <li><b>Dr. Amina</b><span>Signed assessment · I20.9</span><time>09:58</time></li>
+                <li><b>L. Okoro</b><span>Verified result · full blood count</span><time>10:26</time></li>
+                <li><b>Finance</b><span>Issued invoice · INV-2291</span><time>10:29</time></li>
+                <li><b>Admin</b><span>Exported summary · consent verified</span><time>10:31</time></li>
+              </ul>
+            </div>
+            <p class="shot__caption"><span>Product screenshot · demo data</span><span>No entry edited or removed</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec--mist">
+        <div class="shell split split--flip">
+          <div>
+            <p class="kicker">Offline</p>
+            <h2 data-split>Care does not pause<br />for <em class="em-i">signal.</em></h2>
+            <p class="lede">Selected doctor-side chart modules continue when connectivity does not. Writes keep their idempotency keys, conflicts are handled explicitly, and the server re-validates on reconnect.</p>
+            <ul class="feature-list">
+              <li><span>01</span><div><strong>Idempotent writes</strong><small>The same note cannot be recorded twice because a device reconnected twice.</small></div></li>
+              <li><span>02</span><div><strong>Explicit conflict handling</strong><small>Where two versions exist, the resolution is visible rather than silent.</small></div></li>
+              <li><span>03</span><div><strong>Server re-validation</strong><small>Clinical decision support runs again when the record reaches the server.</small></div></li>
+            </ul>
+          </div>
+          <div data-reveal>
+            <div class="panel panel--plain">
+              <div class="ui">
+                <div class="ui-bar"><span class="ui-brand"><b>+</b> Offline</span><span class="ui-status">3 notes queued</span></div>
+                <div class="ui-body">
+                  <div class="ui-head"><div><small>Sync</small><strong>Clinic 2 · device 4</strong></div><span class="ui-date">Reconnected</span></div>
+                  <div class="ui-table">
+                    <div class="ui-row head"><span>Item</span><span>State</span><span>Time</span><span></span></div>
+                    <div class="ui-row"><span><b>Consultation note</b><small>Jared K. · signed offline</small></span><span>Synced</span><span>11:02</span><span class="ui-tag">OK</span></div>
+                    <div class="ui-row"><span><b>Vitals</b><small>Olivia N. · recorded offline</small></span><span>Synced</span><span>11:03</span><span class="ui-tag">OK</span></div>
+                    <div class="ui-row"><span><b>Prescription</b><small>Samuel A. · edited twice</small></span><span>Conflict</span><span>11:05</span><span class="ui-tag warn">Review</span></div>
+                    <div class="ui-row"><span><b>Referral</b><small>Grace O. · queued</small></span><span>Pending</span><span>11:06</span><span class="ui-tag mute">Queue</span></div>
+                  </div>
+                  <div class="ui-foot"><span>Conflicts surface for a human decision</span><span>Server wins</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec--paper">
+        <div class="shell">
+          <div class="sec-head">
+            <div>
+              <p class="kicker">Honesty</p>
+              <h2 data-split>What we do<br /><em class="em-i">not claim.</em></h2>
+            </div>
+            <p class="lede" data-reveal>A governance page is only useful if it is specific. These are the boundaries we hold to in writing and in the product.</p>
+          </div>
+          <div class="timeline">
+            <li><em>Not claimed</em><div><h3>Certification badges</h3><p>Telemex does not present HIPAA, SOC 2, ISO 15189, CLIA or HITRUST certification on this site. Certification status is discussed directly, per deployment, with the evidence that exists.</p></div></li>
+            <li><em>Not claimed</em><div><h3>Complete hospital coverage</h3><p>Hospital and Laboratory are available now. Inpatient, radiology, managed imaging, HMO and pharmacy are on the roadmap and labelled as such.</p></div></li>
+            <li><em>Not claimed</em><div><h3>Automated clinical decisions</h3><p>Telemex records, orders and checks. It does not diagnose, prescribe independently or replace clinical judgement.</p></div></li>
+            <li><em>Not claimed</em><div><h3>Customer names we cannot show</h3><p>No logos, metrics or testimonials appear on this site without written permission and a real deployment behind them.</p></div></li>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="shell cta-grid">
+          <div><h2 data-split>Bring your governance<br /><em>questions.</em></h2></div>
+          <div>
+            <p>Retention, roles, export, offline behaviour, deployment separation. We would rather answer them before a contract than after.</p>
+            <div class="cta-actions">
+              <a class="btn btn--lime" href="contact.html">Talk to us <span class="arw" aria-hidden="true">↗</span></a>
+              <a class="btn" href="privacy.html" style="background: transparent; border-color: rgba(255,255,255,.34); color: #fff">Privacy policy</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="shell">
+        <div class="foot-top">
+          <div>
+            <a class="brand foot-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Telemex</span></a>
+            <p>The modular HMIS for hospitals and laboratories. One patient record, one financial history, every care team connected.</p>
+            <a class="foot-mail" href="mailto:telemex.health@gmail.com">telemex.health@gmail.com ↗</a>
+          </div>
+          <div class="foot-cols">
+            <div><strong>Platform</strong><a href="platform.html">Overview</a><a href="solutions.html">Solutions</a><a href="governance.html">Governance</a><a href="about.html">Company</a></div>
+            <div><strong>Packages</strong><a href="packages.html">Hospital</a><a href="packages.html">Laboratory</a><a href="packages.html">Hospital Pharmacy</a></div>
+            <div><strong>Contact</strong><a href="contact.html">Book a demo</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+          </div>
+        </div>
+        <p class="foot-word" aria-hidden="true">Telemex</p>
+        <div class="foot-bottom"><span>© <span id="current-year">2026</span> Telemex. All rights reserved.</span><span>Hospital and Laboratory available now.</span><a href="#top">Back to top ↑</a></div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

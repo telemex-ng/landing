@@ -4,52 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Privacy Policy | Telemex</title>
-    <meta name="description" content="Telemex Privacy Policy — what we collect on telemex.health, how demo requests are handled via HubSpot EU1, your rights, retention, and contact details." />
+    <meta name="description" content="Telemex Privacy Policy: what we collect on telemex.health, how demo requests are handled via HubSpot EU1, your rights, retention, and contact details for hospital HMIS deployments." />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#103c38" />
     <link rel="canonical" href="https://telemex.health/privacy.html" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <header class="site-header" id="top">
-      <div class="nav-wrap">
-        <a class="brand" href="index.html#top" aria-label="Telemex home">
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-head">
+      <div class="head-in">
+        <a class="brand" href="index.html" aria-label="Telemex home">
           <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
           <span>Telemex</span>
         </a>
-        <nav class="desktop-nav" aria-label="Primary navigation">
-          <a href="index.html#platform">Platform</a>
-          <a href="index.html#solutions">Clinical workflow</a>
-          <a href="index.html#why-telemex">Why Telemex</a>
-          <a href="index.html#security">Governance</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="platform.html">Platform</a>
+          <a href="packages.html">Packages</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="governance.html">Governance</a>
+          <a href="about.html">Company</a>
         </nav>
-        <div class="nav-actions">
-          <a class="button button-dark button-small" href="index.html#demo">Book a demo <span aria-hidden="true">↗</span></a>
+        <div class="head-actions">
+          <a class="head-login" href="contact.html">Contact</a>
+          <a class="btn btn--sm" href="contact.html">Book a demo <span class="arw" aria-hidden="true">↗</span></a>
+          <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-overlay" aria-label="Open menu"><span></span><span></span></button>
         </div>
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation">
-          <span></span><span></span>
-        </button>
       </div>
-      <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
-        <a href="index.html#platform">Platform</a>
-        <a href="index.html#solutions">Clinical workflow</a>
-        <a href="index.html#why-telemex">Why Telemex</a>
-        <a href="index.html#security">Governance</a>
-        <a class="button button-accent" href="index.html#demo">Book a demo <span aria-hidden="true">↗</span></a>
-      </nav>
+      <div class="nav-overlay" id="nav-overlay">
+        <a href="platform.html">Platform</a><a href="packages.html">Packages</a><a href="solutions.html">Solutions</a><a href="governance.html">Governance</a><a href="about.html">Company</a><a href="contact.html">Contact</a>
+        <a class="btn btn--lime" href="contact.html">Book a demo <span class="arw" aria-hidden="true">↗</span></a>
+        <small>telemex.health</small>
+      </div>
     </header>
 
-    <main id="main-content">
+    <main id="main">
       <section class="legal-hero">
         <div class="section-shell">
           <p class="eyebrow"><span></span> Legal</p>
           <h1>Privacy Policy</h1>
           <p class="legal-updated">Last updated: 6 October 2026</p>
-          <p class="legal-lede">This policy explains what personal data we collect on <strong>telemex.health</strong>, why we collect it, how long we keep it, and the rights you have. It covers this marketing website only — hospital EMR deployments are governed by separate agreements with each hospital.</p>
+          <p class="legal-lede">This policy explains what personal data we collect on <strong>telemex.health</strong>, why we collect it, how long we keep it, and the rights you have. It covers this marketing website only. Hospital HMIS deployments are governed by separate agreements with each hospital.</p>
         </div>
       </section>
 
@@ -59,7 +57,7 @@
             <strong>On this page</strong>
             <ol>
               <li><a href="#controller">1. Who controls your data</a></li>
-              <li><a href="#scope">2. Scope — website vs EMR</a></li>
+              <li><a href="#scope">2. Scope: website vs HMIS</a></li>
               <li><a href="#data-collected">3. Data we collect</a></li>
               <li><a href="#purposes">4. Purposes &amp; legal bases</a></li>
               <li><a href="#processors">5. Processors &amp; sharing</a></li>
@@ -76,10 +74,10 @@
             <h2 id="controller">1. Who controls your data</h2>
             <p>Telemex is the controller of personal data collected through this website. Contact us about privacy at <a href="mailto:telemex.health@gmail.com">telemex.health@gmail.com</a> with the subject line “Privacy request”.</p>
 
-            <h2 id="scope">2. Scope — website vs hospital EMR</h2>
+            <h2 id="scope">2. Scope: website vs hospital HMIS</h2>
             <ul>
               <li><strong>This policy applies to telemex.health:</strong> browsing, demo requests, and emails you send us about the product.</li>
-              <li><strong>It does not apply to patient data inside a hospital’s Telemex deployment.</strong> Each white-label deployment has its own database, credentials, and configuration, and the hospital governs patient data under its own privacy notice plus a written data-processing agreement with us. If you are a patient, contact your hospital directly about your medical record.</li>
+              <li><strong>It does not apply to patient data inside a hospital’s Telemex deployment.</strong> Each white-label HMIS deployment has its own database, credentials, and configuration, and the hospital governs patient data under its own privacy notice plus a written data-processing agreement with us. If you are a patient, contact your hospital directly about your medical record.</li>
               <li><strong>Do not send patient health information</strong> through the demo form or website contact email. We only need operational context (workflow, teams, governance, current system).</li>
             </ul>
 
@@ -109,9 +107,9 @@
             <h2 id="processors">5. Processors and sharing</h2>
             <p>We share website data only as needed to run this site and respond to you:</p>
             <ul>
-              <li><strong>HubSpot (EU1 shard)</strong> — demo-form submissions are sent to <code>api-eu1.hsforms.com</code> (portal 147554530) so enquiries are stored and routed to our team. HubSpot acts as our processor under its Data Processing Agreement and stores data in the EU.</li>
-              <li><strong>Hosting / infrastructure provider</strong> — serves the static site and transport-level logs.</li>
-              <li><strong>Google Fonts</strong> — delivers fonts when pages load; Google may receive your IP address and user agent for that purpose.</li>
+              <li><strong>HubSpot (EU1 shard)</strong>: demo-form submissions are sent to <code>api-eu1.hsforms.com</code> (portal 147554530) so enquiries are stored and routed to our team. HubSpot acts as our processor under its Data Processing Agreement and stores data in the EU.</li>
+              <li><strong>Hosting / infrastructure provider</strong>: serves the static site and transport-level logs.</li>
+              <li><strong>Google Fonts</strong>: delivers fonts when pages load; Google may receive your IP address and user agent for that purpose.</li>
             </ul>
             <p>We do not sell personal data collected on this site, and we do not share it with advertisers. We disclose data to authorities only where required by law.</p>
 
@@ -153,16 +151,29 @@
             <h2 id="contact-changes">11. Contact and changes</h2>
             <p>Privacy questions or requests: <a href="mailto:telemex.health@gmail.com">telemex.health@gmail.com</a> (“Privacy request”).</p>
             <p>We will post any updated policy on this page and change the “Last updated” date. Material changes affecting pending enquiries will be noted here. Continued use of the site after an update means you have been notified of the revised policy.</p>
-            <p>Related: <a href="terms.html">Terms of Use</a> · <a href="index.html#demo">Request a demo</a></p>
+            <p>Related: <a href="terms.html">Terms of Use</a> · <a href="contact.html">Request a demo</a></p>
           </article>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="section-shell footer-top"><a class="brand footer-brand" href="index.html#top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Telemex</span></a><p>The white-label hospital EMR that turns every consultation into a complete, continuous patient record.</p><a class="footer-email" href="mailto:telemex.health@gmail.com">telemex.health@gmail.com ↗</a></div>
-      <div class="section-shell footer-links"><div><strong>Explore</strong><a href="index.html#platform">Clinical workflow</a><a href="index.html#solutions">For hospitals</a><a href="index.html#why-telemex">White-label EMR</a><a href="index.html#security">Governance</a></div><div><strong>Hospital teams</strong><a href="index.html#solutions">Clinical teams</a><a href="index.html#solutions">Hospital operations</a><a href="index.html#demo">Implementation partners</a></div><div><strong>Company</strong><a href="index.html#demo">Contact</a><a href="index.html#faq-title">FAQ</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></div><div class="footer-cta"><span>Ready to see your workflow?</span><a class="button button-accent" href="index.html#demo">Book an EMR demo ↗</a></div></div>
-      <div class="section-shell footer-bottom"><span>© <span id="current-year">2026</span> Telemex. All rights reserved.</span><span><a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span><a href="#top">Back to top ↑</a></div>
+        <footer class="foot">
+      <div class="shell">
+        <div class="foot-top">
+          <div>
+            <a class="brand foot-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Telemex</span></a>
+            <p>The modular HMIS for hospitals and laboratories. One patient record, one financial history, every care team connected.</p>
+            <a class="foot-mail" href="mailto:telemex.health@gmail.com">telemex.health@gmail.com ↗</a>
+          </div>
+          <div class="foot-cols">
+            <div><strong>Platform</strong><a href="platform.html">Overview</a><a href="solutions.html">Solutions</a><a href="governance.html">Governance</a><a href="about.html">Company</a></div>
+            <div><strong>Packages</strong><a href="packages.html">Hospital</a><a href="packages.html">Laboratory</a><a href="packages.html">Hospital Pharmacy</a></div>
+            <div><strong>Contact</strong><a href="contact.html">Book a demo</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+          </div>
+        </div>
+        <p class="foot-word" aria-hidden="true">Telemex</p>
+        <div class="foot-bottom"><span>© <span id="current-year">2026</span> Telemex. All rights reserved.</span><span>Hospital and Laboratory available now.</span><a href="#top">Back to top ↑</a></div>
+      </div>
     </footer>
     <script src="script.js" defer></script>
   </body>
