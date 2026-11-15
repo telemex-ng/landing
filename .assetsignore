@@ -1,0 +1,11 @@
+# Repository files that must never be served as public assets.
+.git
+.github
+README.md
+HANDOFF.md
+wrangler.jsonc
+.assetsignore
+.gitignore
+package.json
+package-lock.json
+node_modules

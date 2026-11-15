@@ -1,0 +1,13 @@
+{
+  "name": "telemex-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telemex marketing site (static assets on Cloudflare Workers)",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.162.0"
+  }
+}

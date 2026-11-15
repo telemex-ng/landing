@@ -70,8 +70,39 @@ protection is a hidden `website` honeypot plus a three-second time-to-submit che
 
 ## Deploy
 
-Static files. Deploy the repository root to the existing host; there is no build
-step. `sitemap.xml` lists all pages.
+The site is served by a **Cloudflare Worker with static assets** on
+`telemex.com.ng` and `www.telemex.com.ng`. There is no build step: the repository
+root *is* the site, and `wrangler.jsonc` uploads it as-is.
+
+Continuous deployment runs through **Cloudflare Workers Builds**, connected to
+`telemex-ng/landing`:
+
+| Setting | Value |
+|---|---|
+| Production branch | `main` |
+| Build command | *(empty)* |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | `/` |
+
+Every push to `main` publishes to the live domain. Builds from any other branch
+get a preview URL on `*.workers.dev` and never touch production.
+
+`.assetsignore` keeps repository-only files (`README.md`, `HANDOFF.md`, the
+Workers config) out of the uploaded bundle, so they are not publicly readable.
+`_headers`, `_redirects` and dotfiles are never served.
+
+`wrangler.jsonc` is the single source of truth for the deployment. `name` must
+stay `landing`, which is the Worker the custom domains are attached to. To deploy
+by hand:
+
+```sh
+npx wrangler deploy
+```
+
+`wrangler.jsonc` uses Cloudflare's default HTML handling, which means
+`/platform.html` redirects to `/platform`. Canonical links, OG URLs and
+`sitemap.xml` therefore all use the extensionless form, which returns `200`
+directly.
 
 ## Product screenshots
 
